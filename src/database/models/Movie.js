@@ -31,7 +31,6 @@ module.exports = (sequelize, dataTypes) =>{
         },
         genre_id:{
             type: dataTypes.INTEGER.UNSIGNED,
-            allowNull: true,
             defaultValue: true
         }
     }
